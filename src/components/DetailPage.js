@@ -82,19 +82,24 @@ export class DetailPage extends Component {
                 <div>
                 <img className="proImg" src="https://www.owndays.com/img/upload/product/kADWKJxWUFYsdxwn3q91Y9jvUwh8cn4B.jpg"></img>
                 <h4 className="proCode">TJ00-0001</h4>
+                {/* <div>
+                <img className="baht" src="https://www.flaticon.com/svg/static/icons/svg/507/507227.svg"></img>
                 <h4 className="proCode">2,099</h4>
+                </div> */}
+                <h4 className="proCode">THB2,099</h4>
+
                 </div>
                 
                 <div>
                 <img className="proImg" src="https://www.owndays.com/img/upload/product/feASL26thdFZuM9PUJUP7AGLD3x1UdQe.jpg"></img>
                 <h4 className="proCode">TJ00-0002</h4>
-                <h4 className="proCode">2,099</h4>
+                <h4 className="proCode">THB2,099</h4>
                 </div>
 
                 <div>
                 <img className="proImg" src="https://www.owndays.com/img/upload/product/wZJte9VNVuSDwet4TBTkBNjTcF1ZwaRS.jpg"></img>
                 <h4 className="proCode">TJ00-0003</h4>
-                <h4 className="proCode">2,099</h4>
+                <h4 className="proCode">THB2,099</h4>
                 </div>
 
 
@@ -105,19 +110,19 @@ export class DetailPage extends Component {
                 <div>
                 <img className="proImg" src="https://www.owndays.com/img/upload/product/SS8ZPU85wc5j64W9Xa5WdhtCafaUk886.jpg"></img>
                 <h4 className="proCode">TJ00-0004</h4>
-                <h4 className="proCode">2,099</h4>
+                <h4 className="proCode">THB2,099</h4>
                 </div>
                 
                 <div>
                 <img className="proImg" src="https://www.owndays.com/img/upload/product/ZGC1jQ6FsPfWkvc2kFX8C8zHbbc2YRDa.jpg"></img>
                 <h4 className="proCode">TJ00-0005</h4>
-                <h4 className="proCode">2,099</h4>
+                <h4 className="proCode">THB2,099</h4>
                 </div>
 
                 <div>
                 <img className="proImg" src="https://www.owndays.com/img/upload/product/YpmRr008tpNNM1Gz5YV1gYq4G1K1PkgJ.jpg"></img>
                 <h4 className="proCode">TJ00-0006</h4>
-                <h4 className="proCode">2,099</h4>
+                <h4 className="proCode">THB2,099</h4>
                 </div>
 
 
