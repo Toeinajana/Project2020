@@ -1,0 +1,259 @@
+body {
+    /* background-color: white; */
+    background-image: url(../img/bg1.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    /* font-family: 'Sriracha', cursive; */
+    font-family: 'PT Mono', monospace;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin: 0;
+
+}
+.navbar{
+  width: 100%;
+  height: 100px;
+  top:0;
+  left:0;
+  border: solid 0.5px #707070;
+  background-color: #000000;
+  position: fixed;
+  z-index:1;
+
+}
+.optically{
+    color: white;
+    position: relative;
+    float: left;
+    padding-left: 40px;
+    padding-top: 10px;
+    letter-spacing: 10px;
+    font-weight: 100;
+    
+}
+.language{
+    color: white;
+    position: relative;
+    float: right;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    
+}
+.flag{
+    height: 30px;
+    padding-top: 35px;
+
+}
+
+.sub-language{
+    padding: 20px;
+    padding-top: 25px;
+}
+
+.sub-language-thai{
+    padding: 20px;
+    padding-top: 18px;
+    font-size: 19px;
+}
+
+.loginbtn{
+    height: 50px;
+    width: 130px;
+    font-size: 19px;
+    background-color: #000000;
+    border-color: white;
+    border-radius: 50px;
+    color: white;
+    margin: 25px;
+
+}
+
+.navbar2{
+    background-color: #F7F7F7;
+    border: 0.5px solid #707070 ;
+    position: fixed;
+    top:100px;
+    left: 0px;
+    height: 110px;
+    width: 100%;
+    z-index:1;
+}
+
+.menu{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.menu .active {
+
+    color: black;
+    font-size: 28px;
+    padding: 50px;
+}
+
+.sub-menu{
+    color: #747474;
+    font-size: 28px;
+    padding: 50px;
+}
+
+.breadcrumb{
+    color: #747474;
+    padding-top:250px ;
+    display: flex;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.sub-breadcrumb{
+    padding: 10px;
+}
+
+.sub-breadcrumb-icon{
+    position: relative;
+    font-size: 18px;
+    top: 35px;
+    left: 3%;
+    transform: translate(-50%, -50%);
+}
+
+.sub-breadcrumb-icon2{
+    position: relative;
+    font-size: 21px;
+    top: 36px;
+    left: 3%;
+    transform: translate(-50%, -50%);
+}
+
+.search{
+    color: #747474;
+    /* position: relative; */
+    padding-top:250px ;
+    display: flex;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.input{
+    height: 30px;
+    width: 250px;
+    border-radius: 10px;
+    margin: 20px;
+    padding-left: 8px;
+}
+
+.iconDown{
+    font-size: 24px;
+    position: relative;
+    top: 38px;
+    right: 5%;
+    transform: translate(-50%, -50%);
+
+ }
+
+.sortby{
+    color: #747474;
+    /* position: relative; */
+    padding-top:250px ;
+    padding-right: 20px;
+    display: flex;
+    position: absolute;
+    top: 30%;
+    left: 72%;
+    transform: translate(-50%, -50%);
+}
+
+.sub-sortby{
+
+    height: 25px;
+    width: 85px;
+    border-radius: 10px;
+    margin: 20px;
+    padding-left: 8px;
+   
+}
+
+.iconDownSortby{
+
+    font-size: 18px;
+    position: relative;
+    top: 36px;
+    left: -23%;
+    transform: translate(-50%, -50%);
+}
+
+.pagination{
+
+    color: #747474;
+    padding-top:250px ;
+    padding-left: 100px;
+    display: flex;
+    position: absolute;
+    top: 30%;
+    left: 76%;
+    transform: translate(-50%, -50%);
+}
+
+.pageNumber{
+    
+    position: relative;
+    padding: 5px;
+    margin: 10px;
+    /* margin-left: 15px; */
+    border-radius: 60px;
+    height: 15px;
+    width: 15px;
+    border: 0.5px solid black;
+    
+    /* margin: auto; */
+}
+
+.iconRight{
+
+    font-size: 28px;
+    position: relative;
+    top: 23px;
+    right: -10%;
+    transform: translate(-50%, -50%);
+}
+
+.productSection{
+    display: flex;
+    position: absolute;
+    /* margin: 20px; */
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.proImg{
+    height: 150px;
+    padding: 50px;
+}
+
+.proCode{
+
+    position: relative;
+    top: -20%;
+
+
+}
+
+.productSection2{
+    display: flex;
+    position: absolute;
+    /* margin: 20px; */
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+

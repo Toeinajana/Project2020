@@ -10,7 +10,7 @@ export class Home extends Component {
            
               
                  <div>
-                      <AppBar/>
+                 <AppBar/>
                 <h1>Welcome to Hunt4Health</h1>
                  </div>
                
